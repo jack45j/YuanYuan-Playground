@@ -96,9 +96,9 @@ var 班級名字跟個性: [String: String] = [
 // 查找班級名字跟個性的key為圓圓的讚美咩的個性
 print(班級名字跟個性["圓圓"])
 
-let 是非題答案: [Int: Bool] = [1: true , 2: false, 4: false, 8: true]
-// 查找是非題答案的key為1的答案
-print(是非題答案[1])
+let nameAndHeight: [String: Int] = ["森森": 180 , "圓圓": 165, "甕哥": 2]
+// 用名字查找身高幾公分
+print(nameAndHeight["甕哥"]) // 甕哥2公分
 
 let nameAnd個性: [String: String] = ["小咪": "愛唱歌", "小希": "讚妹妹"]
 let nameAndAge: [String: Float] = ["小咪": 1.5, "小希": 2.0]
